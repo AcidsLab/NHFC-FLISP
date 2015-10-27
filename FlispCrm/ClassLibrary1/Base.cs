@@ -92,6 +92,17 @@ namespace FlispCRM
         {
             aretVal = new Requisition();
         }
+
+        public static void LetterOfGrantPage(ref Web aretVal)
+        {
+            aretVal = new LetterOfGrantPage();
+        }
+
+        public static void RequisitionPage(ref Web aretVal)
+        {
+            aretVal = new RequisitionPage();
+        }
+        
     }
 }
 

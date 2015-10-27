@@ -64,8 +64,10 @@
     <Compile Include="Pages\FlispPersonFind.cs" />
     <Compile Include="Pages\FlispPersonList.cs" />
     <Compile Include="Pages\LetterOfGrant.cs" />
+    <Compile Include="Pages\LetterOfGrantPage.cs" />
     <Compile Include="Pages\Report.cs" />
     <Compile Include="Pages\Requisition.cs" />
+    <Compile Include="Pages\RequisitionPage.cs" />
     <Compile Include="Pages\Testing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
