@@ -16,7 +16,9 @@ namespace FlispCRM.Pages
         {
             string persId = Dispatch.EitherField("key2");
 
-            string grantLetterURL = "http://gertdevvm/ReportServer/Pages/ReportViewer.aspx?%2fGrantLetter&PersonId=" + persId;
+            //string grantLetterURL = "http://gertdevvm/ReportServer/Pages/ReportViewer.aspx?%2fGrantLetter&PersonId=" + persId;
+
+            string grantLetterURL = "http://NHFCHP380FLISP/ReportServer/Pages/ReportViewer.aspx?%2fGrantLetter&PersonId=" + persId;
 
 
             AddContent($@"<iframe src='{grantLetterURL}' id=LetterOfGrant style='border:none; overflow:auto; width: 100%; height: 1000px;'></iframe>");

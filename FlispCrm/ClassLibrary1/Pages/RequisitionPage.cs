@@ -14,8 +14,9 @@ namespace FlispCRM.Pages
         {
             string persId = Dispatch.EitherField("key2");
 
-            string requisitionUrl = "http://gertdevvm/ReportServer/Pages/ReportViewer.aspx?%2fRequisition&PersonId=" + persId;
+            //string requisitionUrl = "http://gertdevvm/ReportServer/Pages/ReportViewer.aspx?%2fRequisition&PersonId=" + persId;
 
+            string requisitionUrl = "http://NHFCHP380FLISP/ReportServer/Pages/ReportViewer.aspx?%2fRequisition&PersonId=" + persId;
 
             AddContent($@"<iframe src='{requisitionUrl}' id=Requisition style='border:none; overflow:auto; width: 100%; height: 1000px;'></iframe>");
 
