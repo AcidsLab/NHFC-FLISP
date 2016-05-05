@@ -1,20 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flisp", "ClassLibrary1\Flisp.csproj", "{3359D276-16A3-476B-90D4-864011234ADF}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reports", "Reports\Reports.rptproj", "{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3359D276-16A3-476B-90D4-864011234ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3359D276-16A3-476B-90D4-864011234ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3359D276-16A3-476B-90D4-864011234ADF}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{3359D276-16A3-476B-90D4-864011234ADF}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{3359D276-16A3-476B-90D4-864011234ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3359D276-16A3-476B-90D4-864011234ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Debug|Any CPU.ActiveCfg = Debug
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Debug|Any CPU.Build.0 = Debug
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Debug|Any CPU.Deploy.0 = Debug
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Release|Any CPU.ActiveCfg = Release
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Release|Any CPU.Build.0 = Release
+		{58E3774D-7AAE-4CD0-95A0-AAB30D8DCC1A}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
